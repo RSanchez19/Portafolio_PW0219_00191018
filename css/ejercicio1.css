@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples28.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: iem 5%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav > button {
+  padding: 0.7em;
+  margin: 0.5em;
+  border: 1em;
+  font-size: 0.8em;
+  border-radius: 0.5em;
+}
+
+.btn1 {
+  color: whitesmoke;
+  background: blueviolet;
+}
+
+.btn2 {
+  color: whitesmoke;
+  background: #2331ad;
+}
+
+.btn3 {
+  color: whitesmoke;
+  background: #b60448;
+}
+
+main {
+  width: 100%;
+  height: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main > hr {
+  width: 80%;
+  background: white;
+  height: 7px;
+  border-radius: 5px;
+  border: none;
+}
+
+main > img {
+  width: 50%;
+  height: auto;
+  margin: 1em;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+main .logos {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .logos > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+  background: whitesmoke;
+  border: 1px solid black;
+  border-radius: 100%;
+  opacity: 0.7%;
+}
+
+main .logos > img:hover {
+  opacity: 0.8;
+}
+
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer > button {
+  padding: 0.7em;
+  margin: 0.5em;
+  color: whitesmoke;
+  font-size: 0.8em;
+  text-decoration: underline;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5em;
+}
+
+.btn {
+  border: 1px solid;
+}
+/*# sourceMappingURL=ejercicio1.css.map */
